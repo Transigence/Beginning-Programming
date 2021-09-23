@@ -3,7 +3,7 @@
 Programming computers is not a beginner-friendly endeavor. Part of the problem is that, unlike most other pursuits, there is no clear beginning. There are many places that are _the beginning_, as it were. In order to begin, you must become a novice in seven key areas all at once. They are:
 * The environment
 * The toolchain
-* The run-time
+* The run-time environment
 * The grammar and syntax
 * The namespaces, libraries and/or modules
 * Programming fundamentals
@@ -17,7 +17,7 @@ In the following chapters, I will describe to you _what_ these things are, as we
 
 ## The Toolchain
 
-## The Run-Time
+## The Run-time Environment
 
 ## The Grammar and Syntax
 
