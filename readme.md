@@ -27,34 +27,44 @@ You will need to know how to use the command-line processors (shell) on your sys
 >‟The tools we use have a profound (and devious!) influence on our thinking habits, and, therefore, on our thinking abilities.”  
 – E. Dijkstra
 
-In the course of writing your programs, you will inevitably use at least a few tools. C programmers will use a text editor, a compiler, an assembler, a linker, and maybe a debugger, although the second usually automates the use of the rest thereafter. Web developers will use a text editor and a web browser. Python programmers will use a text editor and the Python interpreter.  So the C programmer will write a text file, save it, invoke their compiler and specify their source file. This will result in an executable binary file being written to disk, which he will then run to test his code. Python programmers will invoke the Python interpreter with their script and the Python interpreter will run it directly. Web developers will embed some JavaScript into an HTML document and load that file with their browser, and the browser will execute the JavaScript. A web developer will be along shortly to correct me on this.
-
-Sometimes, instead of using several disparate programs, the programmer will use an _Integrated Development Environment_ which combines the text editor, debugger, profiler, compiler, assembler, linker, and whatever other tools are needed into one "easy-to-use" package. When properly configured, the programmer can write some source code, save it, and from then on, just edit the code and press a _play_ button to have it saved, compiled, and run in a single stroke. This makes the edit/test cycle much smoother.
+In the course of writing your programs, you will inevitably use at least a few tools. C programmers will use a text editor, the compiler, the assembler, the linker, and maybe a debugger. Web developers will use a text editor and a web browser. Python programmers will use a text editor and the Python interpreter. Each language requires some specific tools to build or interpret the programs, and you will want some generic ones as well.
 
 For more complex projects, sometimes a build automation tool is used. This is a scripting language that creates configuration files, ensures requirements are met, and gets objects built in the right order so that complex projects don't become unbearable to maintain (as well as ensure the quality of the final build). This is not for the beginner to worry about.
 
-You will need to find, download, and install the tools associated with the programming language you wish to use. Usually, it's pretty straightforward. If you want to learn [Python](https://python.org/), go find and download the installer. It will install python, pythonw (for making GUI programs that don't have a console), IDLE (a text editor and live shell to the python interpreter), pip (a tool for adding addon packages to your installation), and perhaps a few other things. With [Perl](https://perl.org/) it's the same way. Download whatever tools they use, read some "getting started" documents, usually on the same site, and just dive into it. If you want to learn C, C++, and/or C#, go and get an IDE called [Visual Studio](https://visualstudio.microsoft.com/downloads/) (Community edition). This is, in my opinion, Microsoft's crowning achievement – moreso than even Windows. It's a truly splendid suite of tools you can use to write programs in almost any language (though you may have to go download other things if you want to use Visual Studio for other languages like Python). Other languages you might be interested in might be, in no particular order, [Ruby](https://www.ruby-lang.org/), [Go](https://golang.org/), [PHP](https://php.net/), [Rust](https://rust-lang.org/), [Java](https://oracle.com/java/technologies/downloads/) (get the Java SE Development Kit), and [R](https://r-project.org/). These languages all serve different foci and have importantly different qualities. Some of them are interpreted, and some of them are compiled. Others compile to bytecode which then runs on a virtual machine which is implemented on all the major platforms. That basically means "mostly compiled" down to a stage where the virtual machine which interprets it has very little work left to do. That describes Java and C# in this list. This makes it easy to write code that runs on any platform without modifying the source code at all. Read about these languages and see how they compare and which kinds of problems they are designed to solve before choosing Python.
+For starters, you're going to want a programming text editor. This will take the place of Notepad and give you a much more feature-rich, content-aware text editor that will be helpful in writing source code files as well as other kinds of plain text files such as JSON and XML. Here's a good selection of text editors to choose from:
+* [Visual Studio Code](https://code.visualstudio.com/) (most popular)
+* [Atom](https://atom.io/) (very pretty)
+* [Brackets](https://brackets.io/) (unique web-development feature)
+* [Sublime Text](https://sublimetext.com/) (renowned, but not free)
+* [Notepad++](https://notepad-plus-plus.org/) (very mature)
+* [Kate](https://kate-editor.org/) (my choice)
 
-For [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript/) you already have everything you need, which is a text editor and a web browser. I would still recommend choosing a favorite text editor. On Windows, some of your choices include:
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Atom](https://atom.io/)
-* [Brackets](https://brackets.io/)
-* [Sublime Text](https://sublimetext.com/) (not free)
-* [Notepad++](https://notepad-plus-plus.org/)
-* [Kate](https://kate-editor.org/)
-
-Some full-scale IDEs include:
+Sometimes, instead of using several disparate programs, the programmer will use an _Integrated Development Environment_ which combines the text editor, debugger, profiler, compiler, assembler, linker, and many other tools into one "easy-to-use" (not really) package. When properly configured, an IDE allows the programmer to write and test his code with just the click of a single button. All of these IDEs, except for Visual Studio, started out with a focus on one language and matured into multi-language suites. You will find that while some of these IDEs support multiple languages, the support for the language of their inception is the most robust:
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/)
-* [Eclipse](https://eclipse.org/)
-* [Code::Blocks](https://codeblocks.org/)
-* [IntelliJ IDEA](https://jetbrains.com/idea/)
-* [Komodo IDE](https://activestate.com/products/komodo-ide/)
+* [Eclipse](https://eclipse.org/) (Java origins)
+* [Code::Blocks](https://codeblocks.org/) (C/C++ origins)
+* [Komodo IDE](https://activestate.com/products/komodo-ide/) (Python origins)
+Jetbrains offers a selection of language-focused IDEs, some free, others not. Here are the free ones:
+* [IntelliJ IDEA](https://jetbrains.com/idea/) (Java)
+* [PyCharm](https://www.jetbrains.com/pycharm/) (Python)
+
+With the exception of Sublime Text, every program listed in this section is free. What a time to be alive!
+
+In order to program in a language, you will need to have the build tools or interpreter for that language. For [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript/) you already have everything you need, which is a text editor and a web browser. Here are just a few languages you might be interested in learning about, as well as links to their project home pages:
+* [Python](https://python.org/)
+* [Java](https://oracle.com/java/technologies/downloads/)
+* [Ruby](https://www.ruby-lang.org/)
+* [Perl](https://perl.org/)
+* [R](https://r-project.org/)
+* [Rust](https://rust-lang.org/)
+* [Go](https://golang.org/)
+* [PHP](https://php.net/)
+For C/C++, consider using Visual Studio, Code::Blocks, or Eclipse. If you really just want a basic compiler/assembler/linker for Windows, you can get [MinGW-W64](https://www.mingw-w64.org/downloads/#mingw-builds) This will also get you a Fortran compiler.
 
 ### The Grammar and Syntax
 
 >‟The only way to learn a new programming language is by writing programs in it.”  
 — B. Kernighan & D. Ritchie
-
 
 At some point, you will choose a language in which to write your programs. Just like natural languages, programming languages have a grammar and a syntax. Unlike natural languages, they must be adhered to strictly. Human beings are not accustomed to the level of precision necessary to write programs, so often we will get frustrated because we didn't place one semi-colon or parenthesis in the right place, causing our program to fail to build or behave incorrectly once built. Understand that this is a universal experience. It gets better, but it never goes away. Experts still leave off semi-colons, and mismatch quotations and parentheses, and have to edit their source a few more times to get it to compile.
 
