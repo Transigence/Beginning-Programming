@@ -3,6 +3,7 @@
 — H. Abelson and G. Sussman (in "The Structure and Interpretation of Computer Programs")
 ## Preface
 Programming computers is not a beginner-friendly endeavor. Part of the problem is that, unlike most other pursuits, there is no clear beginning. There are many places that are _the beginning_, as it were. In order to begin, you must become a novice in six key areas simultaneously. They are:
+
 * The environment
 * The toolchain
 * The grammar and syntax
@@ -32,6 +33,7 @@ In the course of writing your programs, you will inevitably use at least a few t
 For more complex projects, sometimes a build automation tool is used. This is a scripting language that creates configuration files, ensures requirements are met, and gets objects built in the right order so that complex projects don't become unbearable to maintain (as well as ensure the quality of the final build). This is not for the beginner to worry about.
 
 For starters, you're going to want a programming text editor. This will take the place of Notepad and give you a much more feature-rich, content-aware text editor that will be helpful in writing source code files as well as other kinds of plain text files such as JSON and XML. Here's a good selection of text editors to choose from:
+
 * [Visual Studio Code](https://code.visualstudio.com/) (most popular)
 * [Atom](https://atom.io/) (very pretty)
 * [Brackets](https://brackets.io/) (unique web-development feature)
@@ -40,10 +42,12 @@ For starters, you're going to want a programming text editor. This will take the
 * [Kate](https://kate-editor.org/) (my choice)
 
 Sometimes, instead of using several disparate programs, the programmer will use an _Integrated Development Environment_ which combines the text editor, debugger, profiler, compiler, assembler, linker, and many other tools into one "easy-to-use" (not really) package. When properly configured, an IDE allows the programmer to write and test his code with just the click of a single button. All of these IDEs, except for Visual Studio, started out with a focus on one language and matured into multi-language suites. You will find that while some of these IDEs support multiple languages, the support for the language of their inception is the most robust:
+
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 * [Eclipse](https://eclipse.org/) (Java origins)
 * [Code::Blocks](https://codeblocks.org/) (C/C++ origins)
 * [Komodo IDE](https://activestate.com/products/komodo-ide/) (Python origins)
+
 Jetbrains offers a selection of language-focused IDEs, some free, others not. Here are the free ones:
 * [IntelliJ IDEA](https://jetbrains.com/idea/) (Java)
 * [PyCharm](https://www.jetbrains.com/pycharm/) (Python)
@@ -51,6 +55,7 @@ Jetbrains offers a selection of language-focused IDEs, some free, others not. He
 With the exception of Sublime Text, every program listed in this section is free. What a time to be alive!
 
 In order to program in a language, you will need to have the build tools or interpreter for that language. For [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript/) you already have everything you need, which is a text editor and a web browser. Here are just a few languages you might be interested in learning about, as well as links to their project home pages:
+
 * [Python](https://python.org/)
 * [Java](https://oracle.com/java/technologies/downloads/)
 * [Ruby](https://www.ruby-lang.org/)
@@ -59,6 +64,7 @@ In order to program in a language, you will need to have the build tools or inte
 * [Rust](https://rust-lang.org/)
 * [Go](https://golang.org/)
 * [PHP](https://php.net/)
+
 For C/C++, consider using Visual Studio, Code::Blocks, or Eclipse. If you really just want a basic compiler/assembler/linker for Windows, you can get [MinGW-W64](https://www.mingw-w64.org/downloads/#mingw-builds) This will also get you a Fortran compiler.
 
 ### The Grammar and Syntax
