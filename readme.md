@@ -33,22 +33,22 @@ Sometimes, instead of using several disparate programs, the programmer will use 
 
 For more complex projects, sometimes a build automation tool is used. This is a scripting language that creates configuration files, ensures requirements are met, and gets objects built in the right order so that complex projects don't become unbearable to maintain (as well as ensure the quality of the final build). This is not for the beginner to worry about.
 
-You will need to find, download, and install the tools associated with the programming language you wish to use. Usually, it's pretty straightforward. If you want to learn [Python](python.org), go find and download the installer. It will install python, pythonw (for making GUI programs that don't have a console), IDLE (a text editor and live shell to the python interpreter), pip (a tool for adding addon packages to your installation), and perhaps a few other things. With [Perl](https://perl.org/) it's the same way. Download whatever tools they use, read some "getting started" documents, usually on the same site, and just dive into it. If you want to learn C, C++, and/or C#, go and get an IDE called [Visual Studio](visualstudio.microsoft.com/downloads/) (Community edition). This is, in my opinion, Microsoft's crowning achievement – moreso than even Windows. It's a truly splendid suite of tools you can use to write programs in almost any language (though you may have to go download other things if you want to use Visual Studio for other languages like Python). Other languages you might be interested in might be, in no particular order, [Ruby](ruby-lang.org), [Go](golang.org), [PHP](php.net), [Rust](rust-lang.org), [Java](oracle.com/java/technologies/downloads) (get the Java SE Development Kit), and [R](r-project.org). These languages all serve different foci and have importantly different qualities. Some of them are interpreted, and some of them are compiled. Others compile to bytecode which then runs on a virtual machine which is implemented on all the major platforms. That basically means "mostly compiled" down to a stage where the virtual machine which interprets it has very little work left to do. That describes Java and C# in this list. This makes it easy to write code that runs on any platform without modifying the source code at all. Read about these languages and see how they compare and which kinds of problems they are designed to solve before choosing Python.
+You will need to find, download, and install the tools associated with the programming language you wish to use. Usually, it's pretty straightforward. If you want to learn [Python](https://python.org/), go find and download the installer. It will install python, pythonw (for making GUI programs that don't have a console), IDLE (a text editor and live shell to the python interpreter), pip (a tool for adding addon packages to your installation), and perhaps a few other things. With [Perl](https://perl.org/) it's the same way. Download whatever tools they use, read some "getting started" documents, usually on the same site, and just dive into it. If you want to learn C, C++, and/or C#, go and get an IDE called [Visual Studio](https://visualstudio.microsoft.com/downloads/) (Community edition). This is, in my opinion, Microsoft's crowning achievement – moreso than even Windows. It's a truly splendid suite of tools you can use to write programs in almost any language (though you may have to go download other things if you want to use Visual Studio for other languages like Python). Other languages you might be interested in might be, in no particular order, [Ruby](https://ruby-lang.org/), [Go](https://golang.org/), [PHP](https://php.net/), [Rust](https://rust-lang.org/), [Java](https://oracle.com/java/technologies/downloads/) (get the Java SE Development Kit), and [R](https://r-project.org/). These languages all serve different foci and have importantly different qualities. Some of them are interpreted, and some of them are compiled. Others compile to bytecode which then runs on a virtual machine which is implemented on all the major platforms. That basically means "mostly compiled" down to a stage where the virtual machine which interprets it has very little work left to do. That describes Java and C# in this list. This makes it easy to write code that runs on any platform without modifying the source code at all. Read about these languages and see how they compare and which kinds of problems they are designed to solve before choosing Python.
 
-For [JavaScript](developer.mozilla.org/en-US/docs/Web/javascript) you already have everything you need, which is a text editor and a web browser. I would still recommend choosing a favorite text editor. On Windows, some of your choices include:
-*[Visual Studio Code](code.visualstudio.com)
-*[Atom](atom.io)
-*[Brackets](brackets.io)
-*[Sublime Text](sublimetext.com) (not free)
-*[Notepad++](notepad-plus-plus.org)
-*[Kate](kate-editor.org)
+For [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript/) you already have everything you need, which is a text editor and a web browser. I would still recommend choosing a favorite text editor. On Windows, some of your choices include:
+*[Visual Studio Code](https://code.visualstudio.com/)
+*[Atom](https://atom.io/)
+*[Brackets](https://brackets.io/)
+*[Sublime Text](https://sublimetext.com/) (not free)
+*[Notepad++](https://notepad-plus-plus.org/)
+*[Kate](https://kate-editor.org/)
 
 Some full-scale IDEs include:
-*[Visual Studio](visualstudio.microsoft.com/downloads/)
-*[Eclipse](eclipse.org)
-*[Code::Blocks](codeblocks.org)
-*[IntelliJ IDEA](jetbrains.com/idea)
-*[Komodo IDE](activestate.com/products/komodo-ide)
+*[Visual Studio](https://visualstudio.microsoft.com/downloads/)
+*[Eclipse](https://eclipse.org/)
+*[Code::Blocks](https://codeblocks.org/)
+*[IntelliJ IDEA](https://jetbrains.com/idea/)
+*[Komodo IDE](https://activestate.com/products/komodo-ide/)
 
 ### The Grammar and Syntax
 
