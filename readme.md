@@ -17,7 +17,7 @@ In the following chapters, I will describe to you _what_ these things are, as we
 ### The Environment
 
 >‟I believe OS/2 is destined to be the most important operating system, and possibly program, of all time.”  
-— ˜Bill Gates
+— Bill Gates
 
 Computer programs are created to run on a certain microarchitecture. That is to say, when you make one, you make it for a certain type of computer. But unless you are writing your own boot-sector and booting the computer into your program, you are also writing your program for a certain operating system (OS). This OS, such as Windows, Linux, or MacOS, is what you, the programmer, are negotiating with. You are asking the OS to do things for you like open files, draw graphics, print documents, make network connections, etc. Each OS has different ways of doing things, so as you learn to program, eventually you will be doing things that are specific to a certain OS.
 
