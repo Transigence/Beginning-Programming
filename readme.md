@@ -33,6 +33,23 @@ Sometimes, instead of using several disparate programs, the programmer will use 
 
 For more complex projects, sometimes a build automation tool is used. This is a scripting language that creates configuration files, ensures requirements are met, and gets objects built in the right order so that complex projects don't become unbearable to maintain (as well as ensure the quality of the final build). This is not for the beginner to worry about.
 
+You will need to find, download, and install the tools associated with the programming language you wish to use. Usually, it's pretty straightforward. If you want to learn [python.org](Python), go find and download the installer. It will install python, pythonw (for making GUI programs that don't have a console), IDLE (a text editor and live shell to the python interpreter), pip (a tool for adding addon packages to your installation), and perhaps a few other things. With [perl.org](Perl) it's the same way. Download whatever tools they use, read some "getting started" documents, usually on the same site, and just dive into it. If you want to learn C, C++, and/or C#, go and get an IDE called [visualstudio.microsoft.com/downloads/](Visual Studio) (Community edition). This is, in my opinion, Microsoft's crowning achievement – moreso than even Windows. It's a truly splendid suite of tools you can use to write programs in almost any language (though you may have to go download other things if you want to use Visual Studio for other languages like Python). Other languages you might be interested in might be, in no particular order, [ruby-lang.org](Ruby), [golang.org](Go), [php.net](PHP), [rust-lang.org](Rust), [oracle.com/java/technologies/downloads](Java) (get the Java SE Development Kit), and [r-project.org](R). These languages all serve different foci and have importantly different qualities. Some of them are interpreted, and some of them are compiled. Others compile to bytecode which then runs on a virtual machine which is implemented on all the major platforms. That basically means "mostly compiled" down to a stage where the virtual machine which interprets it has very little work left to do. That describes Java and C# in this list. This makes it easy to write code that runs on any platform without modifying the source code at all. Read about these languages and see how they compare and which kinds of problems they are designed to solve before choosing Python.
+
+For [developer.mozilla.org/en-US/docs/Web/javascript](JavaScript) you already have everything you need, which is a text editor and a web browser. I would still recommend choosing a favorite text editor. On Windows, some of your choices include:
+*[code.visualstudio.com](Visual Studio Code)
+*[atom.io](Atom)
+*[brackets.io](Brackets)
+*[sublimetext.com](Sublime Text) (not free)
+*[notepad-plus-plus.org](Notepad++)
+*[kate-editor.org](Kate)
+
+Some full-scale IDEs include:
+*[visualstudio.microsoft.com/downloads/](Visual Studio)
+*[eclipse.org](Eclipse)
+*[codeblocks.org](Code::Blocks)
+*[jetbrains.com/idea](IntelliJ IDEA)
+*[activestate.com/products/komodo-ide](Komodo IDE)
+
 ### The Grammar and Syntax
 
 >‟The only way to learn a new programming language is by writing programs in it.”  
@@ -41,14 +58,14 @@ For more complex projects, sometimes a build automation tool is used. This is a 
 
 At some point, you will choose a language in which to write your programs. Just like natural languages, programming languages have a grammar and a syntax. Unlike natural languages, they must be adhered to strictly. Human beings are not accustomed to the level of precision necessary to write programs, so often we will get frustrated because we didn't place one semi-colon or parenthesis in the right place, causing our program to fail to build or behave incorrectly once built. Understand that this is a universal experience. It gets better, but it never goes away. Experts still leave off semi-colons, and mismatch quotations and parentheses, and have to edit their source a few more times to get it to compile.
 
-### The Namespaces, Libraries and/or Modules
+### The Namespaces, Libraries, Modules and Assemblies
 
 >‟There are only two hard things in Computer Science: cache invalidation and naming things.”  
 — Phil Karlton
 
 If you want to print to the console in C you will `#include <stdio.h>` and call `printf()`. If you want to print to the console with Python you will call the built-in function `print()` (or if you're still using Python 2 for some otherworldly reason, the keyword `print`). If you are using C#, you will `using System;` and call `Console.Write()` or `Console.WriteLine()` depending on exactly what behavior you want. In Java, you will `import java.io.*;` and call `System.out.print()` or `System.out.println()`. In JavaScript, you will call `console.log()`.
 
-There are many things like printing to the console that are common to many different languages, but they have different names and belong to different namespaces, and sometimes become available as a result of _include_ -ing or _import_ -ing or _using_ -ing certain headers or modules or assemblies. They usually work in similar and familiar ways, but you will need to become familiar with what your language calls things, and how the functions and objects on which you will be relying are organized and how you can include them in your program.
+There are many things like printing to the console that are common to many different languages, but they have different names and belong to different namespaces, and sometimes become available as a result of _include_ -ing or _import_ -ing or _using_ -ing certain headers or modules or assemblies. Each language has a way to open files, manipulate strings, do higher math, etc. They usually work in similar and familiar ways, but for each language you learn you will need to become familiar with what your it calls things. You will need to learn how the functions and objects on which you will be relying are organized and how you can include them in your program.
 
 ### Programming Fundamentals
 
@@ -103,7 +120,7 @@ As you can see, there is a lot to learn right up front. It's a very steep climb 
 >“You have to honor failure, because failure is just the negative space around success.”  
 — R. Nelson (in Wired 06/2004)
 
-When your program doesn't compile, you feel stupid. When it does compile but doesn't do what you want, you feel like a failure. But don't let this feeling bring you down – this is what programming is. The moment your program compiles and does exactly what you want only exists as the final moment at the very end of the process. If your program takes six months to develop, it's six months of feeling stupid, of feeling like a failure, of blow after blow to your ego and self-image. Sometimes it hurts and it can be infuriating. _You must fight this feeling and push yourself past it._ We are all in the same boat. We are all squishy noodle-brains who think irrationally, take shortcuts, make mistakes, and forget things. We don't fully understand the problems we are trying to solve. We, in our inglorious failings are trying to use cold, relentless machines to mechanize our poorly-formulated thoughts. Our computers expose our inadequacy to ourselves, and sometimes it hurts. But the payoff is worth it, for as much as we see what sloppy thinkers we are most of the time, when a project is finished we get a glimpse of the genius we are sometimes capable of.
+When your program doesn't compile, you feel stupid. When it does compile but doesn't do what you want, you feel like a failure. This is what programming is; don't let this feeling bring you down. The moment your program compiles and does exactly what you want only exists as the final moment at the very end of the process. If your program takes six months to develop, it's six months of blow after blow to your ego and self-image. It hurts and it can be infuriating. _Do not let this feeling distract you from your goal!_ We are all in the same boat. We are all squishy noodle-brains who think irrationally, take shortcuts, make mistakes, and forget things. We don't fully understand the problems we are trying to solve. We, in our inglorious failings are trying to use cold, relentless machines to mechanize our poorly-formulated thoughts. Our computers expose our inadequacy to ourselves, and it's humiliating, but the payoff is worth it. Much as we see what sloppy thinkers we are most of the time, when a project is finished we get a glimpse of the genius we are sometimes capable of.
 
 >“Then Dennis and Brian worked on a truly warped version of Pascal, called "A." When we found others were actually trying to create real programs with A, we quickly added additional cryptic features and evolved into B, BCPL, and finally C. We stopped when we got a clean compile on the following syntax:  
 `for(;P("\n"),R=;P("|"))for(e=C;e=P("_"+(*u++/8)%2))P("|"+(*u/4)%2);`  
