@@ -19,9 +19,9 @@ In the following chapters, I will describe to you _what_ these things are, as we
 >‟I believe OS/2 is destined to be the most important operating system, and possibly program, of all time.”  
 — Bill Gates
 
-Computer programs are created to run on a certain microarchitecture. That is to say, when you make one, you make it for a certain type of computer. But unless you are writing your own boot-sector and booting the computer into your program, you are also writing your program for a certain operating system (OS). This OS, such as Windows, Linux, or MacOS, is what you, the programmer, are negotiating with. You are asking the OS to do things for you like open files, draw graphics, print documents, make network connections, etc. Each OS has different ways of doing things, so as you learn to program, eventually you will be doing things that are specific to a certain OS.
+Unless you are writing your own boot-sector and booting the computer into your program, you are writing your program for a certain operating system (OS). This OS, such as Windows, Linux, or MacOS, is what you are negotiating with. You are asking the OS to do things for you like open files, draw graphics, print documents, make network connections, etc. Each OS has different ways of doing things, so as you learn to program, eventually you will be doing things that are specific to a certain OS. Someone will be along shortly to correct me on this.
 
-You will need to know how to use terminal console on your system. In Windows, this is _cmd_ or _PowerShell_, whereas on Linux it could be _bash_, _korn_, _zsh_, _fish_, _csh_, or one or more of many, many others (but it's probably _bash_). You will need to understand how to navigate your file system and invoke programs and pass in parameters to those programs from the command-line interface. Take some time to learn about your console's quality-of-life features, including autocompletion and command history (it's the `<Tab>` and `<Up Arrow>` keys). They will make your life much easier. One more thing to know is that if you need to pass as a single argument, something that has spaces in it, it should be wrapped in quotes (e.g. `myproggie -f "My Folder\That file.txt"`).
+You will need to know how to use the command-line processors (shell) on your system. In Windows, this is _cmd_ and _PowerShell_, whereas on Linux it could be _bash_, _korn_, _zsh_, _fish_, and/or _csh_, to name just a tiny few of the myriad (but it's probably _bash_). You will need to understand how to navigate your file system and invoke programs and pass in parameters to those programs from the shell. Take some time to learn about your shell's quality-of-life features, including autocompletion and command history (it's the `<Tab>` and `<Up Arrow>` keys). They will make your life much easier. You will need to understand how programs are found (i.e. the _search path_) and how to add directories to this list. You might even need to understand what environment variables are and how to add to them. One more thing to know is that if you need to pass as a single argument something that has spaces in it, it should be wrapped in quotes (e.g. `myproggie -f "My Folder\That file.txt"`).
 
 ### The Toolchain
 >‟The tools we use have a profound (and devious!) influence on our thinking habits, and, therefore, on our thinking abilities.”  
@@ -63,6 +63,9 @@ Some algorithms are faster than others. In some sets of algorithms which do the 
 
 There are different kinds of time an algoritm can run in and _big-O notation_ describes it. Look that up!
 
+>‟The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos.”  
+— E. Dijkstra (in "Notes on Structured Programming")
+
 These are the kinds of things you will learn as you learn to program. There is much, much more. In fact, you can get a bachelor's degree in it. But these fundamentals are true everywhere and at all times. (A _functional_ programmer will be along shortly to correct me.) They are separate from the details of the language you are learning, and the namespaces and libraries that go with it. It is a separate discipline unto itself. In fact, this is principally what you're learning. Languages and tools come and go, but _information science_ is forever.
 
 ### Reading Documentation
@@ -96,6 +99,9 @@ If you are asking for help in a real-time service like IRC or Discord, you may n
 ## Finally
 
 As you can see, there is a lot to learn right up front. It's a very steep climb in the beginning, but it's doable. Allow it to take time – don't rush it. You will find that as you start to get a grip on all of these disciplines, learning more becomes easier. Learning a new language won't involve learning fundamentals again. Using a new IDE or text editor doesn't mean starting from scratch. They all work about the same way.
+
+>“You have to honor failure, because failure is just the negative space around success.”  
+— R. Nelson (in Wired 06/2004)
 
 When your program doesn't compile, you feel stupid. When it does compile but doesn't do what you want, you feel like a failure. But don't let this feeling bring you down – this is what programming is. The moment your program compiles and does exactly what you want only exists as the final moment at the very end of the process. If your program takes six months to develop, it's six months of feeling stupid, of feeling like a failure, of blow after blow to your ego and self-image. Sometimes it hurts and it can be infuriating. _You must fight this feeling and push yourself past it._ We are all in the same boat. We are all squishy noodle-brains who think irrationally, take shortcuts, make mistakes, and forget things. We don't fully understand the problems we are trying to solve. We, in our inglorious failings are trying to use cold, relentless machines to mechanize our thoughts. Our computers expose our inadequacy to ourselves, and sometimes it hurts. But the payoff is worth it, for as much as we see what sloppy thinkers we are most of the time, when a project is finished we get a glimpse of the genius we are sometimes capable of.
 
