@@ -65,7 +65,7 @@ Jetbrains offers a selection of language-specific IDEs, some free, others not. H
 
 With the exception of Sublime Text, every program listed in this section is free. What a time to be alive!
 
-In order to program in a language, you will need to have the build tools or interpreter for that language. For [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/javascript/) you already have everything you need, which is a text editor and a web browser. Here are just a few languages you might be interested in learning about, as well as links to their project home pages:
+In order to program in a language, you will need to have the build tools or interpreter for that language. Here are just a few languages you might be interested in learning about, as well as links to their project home pages:
 
 * [Python](https://python.org/)
 * [Java](https://oracle.com/java/technologies/downloads/)
